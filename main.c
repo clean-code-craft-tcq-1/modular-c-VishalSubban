@@ -1,4 +1,3 @@
-#include <assert.h>
 #include "pairing.h"
 
 int main() {
