@@ -1,6 +1,3 @@
-#ifndef _PAIRING_H
-#define _PAIRING_H
-
 #include <stdio.h>
 #include <assert.h>
 

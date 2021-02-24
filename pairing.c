@@ -1,6 +1,3 @@
-#ifndef _PAIRING_H
-#define _PAIRING_H
-
 #include "pairing.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer)
@@ -49,4 +46,12 @@ void testPairToNumber(enum MajorColor major,
     assert(pairNumber == expectedPairNumber);
 }
 
-#endif  // _PAIRING_H
+int main() {
+    testNumberToPair(4, WHITE, BROWN);
+    testNumberToPair(5, WHITE, SLATE);
+
+    testPairToNumber(BLACK, ORANGE, 12);
+    testPairToNumber(VIOLET, SLATE, 25);
+
+    return 0;
+}
