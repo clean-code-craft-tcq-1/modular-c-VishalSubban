@@ -1,3 +1,6 @@
+#ifndef _PAIRING_H
+#define _PAIRING_H
+
 #include <stdio.h>
 #include <assert.h>
 
@@ -54,4 +57,4 @@ void testPairToNumber(enum MajorColor major,
                       enum MinorColor minor,
                       int expectedPairNumber);
 
-
+#endif //_PAIRING_C

@@ -1,3 +1,6 @@
+#ifndef _MAIN_C
+#define _MAIN_C
+
 #include "pairing.h"
 
 int main() {
@@ -9,3 +12,5 @@ int main() {
 
     return 0;
 }
+
+#endif // _MAIN_C
